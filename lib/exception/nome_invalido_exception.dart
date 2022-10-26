@@ -3,7 +3,6 @@ class NomeInvalidoException implements Exception {
 
   @override
   String toString() {
-    // TODO: implement toString
     return "NomeInvalidoException: ${error()}";
   }
 }
